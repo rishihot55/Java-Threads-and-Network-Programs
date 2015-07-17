@@ -27,12 +27,15 @@ public class MatrixMultiply {
 		{1,0,1,0},
 		{0,1,0,1}
 	};
+
 	// The matrices give a predictable result
-	// 2 0 2 0
-	// 0 2 0 2
-	// 2 0 2 0
-	// 0 2 0 2
-	// This can be proved by induction
+	// {2,0,2,0}
+	// {0,2,0,2}
+	// {2,0,2,0}
+	// {0,2,0,2}
+	// A more general solution for
+	// multiplication of N such matrices
+	// can be proved using induction
 	
 	public static int [][] C = new int [M][N];
 	
